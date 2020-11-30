@@ -1,0 +1,21 @@
+generated-with: Easy Java/Javascript Simulations, version 6.01, build 201013. Visit http://www.um.es/fem/Ejs
+title: Escoamento
+logo-image: figs/escoamento_pic.png
+author: Humberto Carmona
+copyright: Humberto Carmona, H. Carmona
+preferred-width: 800
+preferred-height: 600
+author-image: figs/HAC_logo.png
+source: Bernoulli.ejss
+main-script: 
+main-simulation: Bernoulli_Simulation.xhtml
+available-languages: 
+html-description: Bernoulli_Intro_1.html
+html-contents: Bernoulli_Contents.xhtml
+html-main: Bernoulli.xhtml
+page-title: Introdução
+page-index: Bernoulli_Intro_1.html
+page-title: Escoamento
+page-index: Bernoulli_Simulation.xhtml
+resource: figs/HAC_logo.png
+resource: figs/escoamento_pic.png
