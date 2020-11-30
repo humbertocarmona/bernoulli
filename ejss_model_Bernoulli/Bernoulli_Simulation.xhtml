@@ -602,7 +602,7 @@ var numericJS = numeric;
   });
 
   _model.addToReset(function() {
-    nParticles = 50; // EjsS Model.Variables.particles.nParticles
+    nParticles = 150; // EjsS Model.Variables.particles.nParticles
     xx = new Array(nParticles); // EjsS Model.Variables.particles.xx
     yy = new Array(nParticles); // EjsS Model.Variables.particles.yy
     vxx = new Array(nParticles); // EjsS Model.Variables.particles.vxx
@@ -886,16 +886,16 @@ var numericJS = numeric;
      // > CustomCode.initWalls:45
     yb[0] = floor - 0.05*Ly - 0.1*Ly;  // > CustomCode.initWalls:46
     yb[1] = floor - 0.05*Ly - 0.1*Ly;  // > CustomCode.initWalls:47
-    yb[2] = yb[1] - 0.1*Ly;  // > CustomCode.initWalls:48
+    yb[2] = yb[1] - 0.0*Ly; // 0.1  // > CustomCode.initWalls:48
     yb[3] = yb[2] - 0.0*Ly;  // > CustomCode.initWalls:49
-    yb[4] = yb[3] - 0.4*Ly;  // > CustomCode.initWalls:50
+    yb[4] = yb[3] - 0.0*Ly; // 0.4  // > CustomCode.initWalls:50
     yb[5] = yb[4] - 0.0*Ly;    // > CustomCode.initWalls:51
     yt[0] = yb[0] + 0.1*Ly;  // > CustomCode.initWalls:52
     yt[1] = yb[1] + 0.1*Ly;  // > CustomCode.initWalls:53
-    yt[2] = yb[2] + 0.15*Ly;  // > CustomCode.initWalls:54
-    yt[3] = yb[3] + 0.15*Ly;  // > CustomCode.initWalls:55
-    yt[4] = yb[4] + 0.3*Ly;  // > CustomCode.initWalls:56
-    yt[5] = yb[5] + 0.3*Ly;  // +x =   // > CustomCode.initWalls:57
+    yt[2] = yb[2] + 0.1*Ly;//0.15  // > CustomCode.initWalls:54
+    yt[3] = yb[3] + 0.1*Ly; //0.15  // > CustomCode.initWalls:55
+    yt[4] = yb[4] + 0.1*Ly; //0.3  // > CustomCode.initWalls:56
+    yt[5] = yb[5] + 0.1*Ly;  //0.3   // > CustomCode.initWalls:57
     enableMove[0] = "ENABLED_NONE";  // > CustomCode.initWalls:58
     enableMove[2] = "ENABLED_NONE";  // > CustomCode.initWalls:59
     enableMove[5] = "ENABLED_NONE";  // > CustomCode.initWalls:60
