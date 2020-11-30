@@ -494,7 +494,7 @@ var numericJS = numeric;
     xmin = -15.0; // EjsS Model.Variables.Global.xmin
     xmax = 15.0; // EjsS Model.Variables.Global.xmax
     ymin = floor-15; // EjsS Model.Variables.Global.ymin
-    ymax = floor+5; // EjsS Model.Variables.Global.ymax
+    ymax = floor+10; // EjsS Model.Variables.Global.ymax
     p0 = 101.325; // EjsS Model.Variables.Global.p0
     rhoFluid = 1.0; // EjsS Model.Variables.Global.rhoFluid
     rhoAir = 1.225e-3; // EjsS Model.Variables.Global.rhoAir
@@ -503,7 +503,7 @@ var numericJS = numeric;
   });
 
   _model.addToReset(function() {
-    mainWidth = (_isMobile||_isEPub)?"400px":"600px"; // EjsS Model.Variables.Display Vars.mainWidth
+    mainWidth = (_isMobile||_isEPub)?"400px":"510px"; // EjsS Model.Variables.Display Vars.mainWidth
     centerWidth = (_isMobile||_isEPub)?"300px":"500px"; // EjsS Model.Variables.Display Vars.centerWidth
     middleHeight = (_isMobile||_isEPub)?"350px":"400px"; // EjsS Model.Variables.Display Vars.middleHeight
   });
@@ -2011,7 +2011,7 @@ function Bernoulli_View_0 (_topFrame) {
       ;
 
     _view._addElement(EJSS_INTERFACE.panel,"textPanel", _view._topFrame) // EJsS HtmlView.HtmlView Page: declaration of element 'textPanel'
-      .setProperty("Html","<h2>Instrução de uso</h2> <p>Explore como a pressão varia na atmosfera e no fluido.</p> <p>A forma da tubulação pode ser alterada. Observer como isso altera a velocidade de escoamento em cada posição.</p> <p>Use os traçadores para invertigar o comportamento das linhas de corrente.</p> <p>Com o uso das trenas, medidor de velocidade e pressão você pode verificar quantitativamente o comportamento do fluido</p>") // EJsS HtmlView.HtmlView Page: setting property 'Html' for element 'textPanel'
+      .setProperty("Html","<h2>Instrução de uso</h2> <p>Explore como a pressão varia na atmosfera e no fluido.</p> <p>A forma da tubulação pode ser alterada. Observe como isso altera a velocidade de escoamento em cada posição.</p> <p>Use os traçadores para invertigar o comportamento das linhas de corrente.</p> <p>Com o uso das trenas, medidor de velocidade e pressão você pode verificar quantitativamente o comportamento do fluido</p>") // EJsS HtmlView.HtmlView Page: setting property 'Html' for element 'textPanel'
       ;
 
   };
